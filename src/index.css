@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('./assets/c.png');
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  @apply w-4;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+  @apply bg-slate-200/10 backdrop-blur-md rounded-full;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  @apply bg-rose-500 rounded-full;
+}
+.my-element {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
