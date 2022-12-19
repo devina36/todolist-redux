@@ -1,19 +1,19 @@
-![App Screenshot](/public/todolist.JPG)
+![App Screenshot](/public/todosnew.JPG)
 
 ## TodoList Redux Toolkit
 
-A todo application with add, delete, and filter features. The tech using React.js and to manage states, using Redux. Also styled using TailwindCss
+A todo application with complete features. The tech using React.js and to manage states, using Redux. Also styled using TailwindCss
 
 ## Features
 
-- Add todo
-- Delete todo
+- CRUD todo
 - Incomplete/Completed
 - Filter todo
 
 ## Tech Stack
 
 - React
+- Vite
 - React Redux
 - Tailwind Css
 - React Icons
